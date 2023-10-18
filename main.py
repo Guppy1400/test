@@ -10,3 +10,7 @@ def front_page():
 @app.route("/about")
 def about_page():
 	return render_template("about.html")
+
+@app.route("/file_check")
+def file_check():
+	return render_template("file_check.html")
